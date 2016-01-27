@@ -1,6 +1,61 @@
+/* recall that default browsers styles overwrite these option */
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    
+}
+
+/* backup fonts in case some browsers have render issues */
 h1 {
-    font-family: Consolas;
+    font-family: Tom, sans-serif;
     font-size: 40px;
     line-height: 50px;
     color: red;
+}
+
+p{
+    color: green;
+}
+
+/* not recommended, better to use classes*/
+header{
+    background-color: rgba(79,179,191,1);
+}
+
+footer{
+    color: rgba(255,255,255,1);
+    background-color: #35787f;
+}
+
+/* all anchor tags */
+a{
+    color: yellow;
+}
+
+
+.active{
+    background-color: #99EFFF;
+}
+
+/* all active anchor tags */
+.active a{
+    color: white;
+}
+
+/* Targetting IDs is not recommended, better to use classes */
+#firstSection{
+    background-color: aqua;
+}
+
+.secondSection{
+    background-color: paleturquoise;
+}
+
+.mastHead{
+    border: 3px solid black;
+}
+
+.header, .firstSection{
+    background-color: rgba(79,179,191,1);
 }
